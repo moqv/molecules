@@ -5,8 +5,6 @@ from sklearn.kernel_ridge import KernelRidge
 
 #faire un fichier utils.py pour trier les données : ordre croissant des coordonnées x
 
-
-
 class Atom:
     def __init__(self, name, x, y, z):
         self.name = name
